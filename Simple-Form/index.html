@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Form</title>
+</head>
+
+<body>
+    <h1>Personal Form</h1>
+    <form>
+        <fieldset>
+            <legend>Personal Details</legend>
+
+            <label for=""><b>First Name:</b></label><br>
+            <input type="text" placeholder="Enter First Name" required><br>
+
+            <br><label for=""><b>Last Name:</b></label><br>
+            <input type="text" placeholder="Enter Last Name" required><br>
+
+            <br><label for=""><b>Email:</b></label><br>
+            <input type="email" placeholder="abc@example.com" required><br>
+
+            <br><label for=""><b>Mobile Number:</b></label><br>
+            <input type="tel" placeholder="630XXXXXXX" required><br>
+
+            <br><label for=""><b>Social Media:</b></label><br>
+            <input type="url" placeholder="https://xyz.com" required><br>
+
+            <br><label for=""><b>Date of Birth:</b></label><br>
+            <input type="date" required><br>
+
+            <br><label for=""><b>Gender:</b></label><br>
+            <input type="radio" required>Male<br>
+            <input type="radio" required>Female<br>
+            <input type="radio" required>Others<br>
+
+            <br><label for=""><b>Choose Language:</b></label><br>
+            <input type="checkbox">English<br>
+            <input type="checkbox">Hindi<br>
+            <input type="checkbox">Urdu<br>
+            <input type="checkbox">Turkish<br>
+            <input type="text" placeholder="Others">
+            <button>Add</button><br>
+
+            <br><label for=""><b>Nationality:</b></label><br>
+            <form>
+                <select>
+                    <option value="select">Select</option>
+                    <option value="china">China</option>
+                    <option value="india">India</option>
+                    <option value="japan">Japan</option>
+                    <option value="pakistan">Pakistan</option>
+                    <option value="turkey">Turkey</option>
+                    <option value="usa">USA</option>
+                    <option value="others">Others</option>
+                </select>
+            </form><br>
+
+            <br>
+            <form>
+                <label><b>Upload image:</b></label><br>
+                <input type="file">
+            </form>
+
+            <br><label><b>Favorite Color:</b></label><br>
+            <input type="color" value="#f6f82" required><br>
+
+            <br><label for=""><b>Address:</b></label><br>
+            <textarea cols="30" rows="5" placeholder="Enter you address" required></textarea><br>
+
+            <br><button type="submit">Submit</button>
+        </fieldset>
+    </form>
+    <p style="color: red"><i>*Don't Worry! This form is not storing your data. </i></p>
+</body>
+
+</html>
